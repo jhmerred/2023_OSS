@@ -33,17 +33,15 @@
 FILE_COUNT=$(find /home/kau2 -type f -name "w2_homework.txt" 2>/dev/null | wc -l)
 if [ $(expr $FILE_COUNT) -eq $(expr 1) ]; then
 
-	NAME="주형민"
-	STUDENT_ID="2020125067"
 	FILE_PATH=$(find /home/kau2 -type f -name "w2_homework.txt" 2>/dev/null)
 	LINE_NUMBER=$(wc -l $FILE_PATH | cut -d ' ' -f 1)
 	LAST_LINE=$(tail -n 1 $FILE_PATH)
 
 	echo -e "----------"
-	echo -e "name :\n$NAME"
+	echo -e "name :\n"
 
 	echo -e "\n----------"
-	echo -e "student id :\n$STUDENT_ID"
+	echo -e "student id :"
 
 	echo -e "----------\n"
 	echo -e "file path :\n$FILE_PATH"
@@ -63,7 +61,7 @@ fi
 3. 세번째
 2. 두번째
 
-#### 번호 없는 목록 : *,-,+
+#### 번호 없는 목록 : * , - , +
 * 첫번째  
  
 * 세번째   
