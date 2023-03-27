@@ -5,7 +5,7 @@
 ### 3주차 git
 
 ### 이미지
-![Alt text](../keep/kau_test.png)
+![Alt text](../image/kau_test.png)
 
 ### 링크
 [LMS](https://lms.kau.ac.kr)
